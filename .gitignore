@@ -1,1 +1,5 @@
-data/
+# dossier data renommé en backup pour une meilleure logique, c'est une sauvegarde pas un dossier de données à proprement parlé
+backup/
+mssql_server/
+
+setup-environnement.md

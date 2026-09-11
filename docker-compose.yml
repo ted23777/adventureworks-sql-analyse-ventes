@@ -1,0 +1,22 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver22
+    # L'image 2022 tourne en non-root (user mssql) : echec d'ecriture sur le volume
+    # monte sous WSL2, master.mdf non cree, conteneur en boucle de redemarrage.
+    # Contournement de developpement local uniquement ; en production, corriger
+    # les droits du volume plutot que d'elever le processus.
+    user: "0:0"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "AdvWorks2022!"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./backup:/var/opt/mssql/backup
+      - mssql-data:/var/opt/mssql/data
+    restart: unless-stopped
+
+volumes:
+  mssql-data:
