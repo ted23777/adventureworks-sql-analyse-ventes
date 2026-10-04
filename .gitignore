@@ -3,3 +3,5 @@ backup/
 mssql_server/
 
 setup-environnement.md
+
+.vs/

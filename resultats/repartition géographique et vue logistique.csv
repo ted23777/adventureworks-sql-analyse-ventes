@@ -1,0 +1,17 @@
+﻿zone                                               territoire                                         pays nb_commandes nb_clients  ca                                      panier_moyen                            part_vente_en_ligne_pct
+-------------------------------------------------- -------------------------------------------------- ---- ------------ ----------- --------------------------------------- --------------------------------------- ---------------------------------------
+North America                                      Southwest                                          US   6224         4565        27150594.59                             4362.24                                 23.27
+North America                                      Canada                                             CA   4067         1677        18398929.19                             4523.96                                 11.88
+North America                                      Northwest                                          US   4594         3428        18061660.37                             3931.58                                 22.33
+Pacific                                            Australia                                          AU   6843         3625        11814376.10                             1726.49                                 84.75
+North America                                      Central                                            US   385          69          8913299.25                              23151.43                                0.04
+North America                                      Southeast                                          US   486          91          8884099.37                              18280.04                                0.15
+Europe                                             United Kingdom                                     GB   3219         1951        8574048.71                              2663.58                                 43.71
+Europe                                             France                                             FR   2672         1844        8119749.35                              3038.83                                 35.98
+North America                                      Northeast                                          US   352          57          7820209.63                              22216.50                                0.09
+Europe                                             Germany                                            DE   2623         1812        5479819.58                              2089.14                                 58.36
+
+(10 lignes affectées)
+
+
+Heure de fin : 2026-10-04T23:52:53.1572727+02:00

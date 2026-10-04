@@ -1,0 +1,12 @@
+﻿segment          nb_clients  recence_moyenne_jours frequence_moyenne                       ca_du_segment                           part_ca_pct
+---------------- ----------- --------------------- --------------------------------------- --------------------------------------- ---------------------------------------
+Clients premium  3718        84                    2.78                                    89631311.49                             72.74
+À réactiver      5311        317                   1.73                                    31276616.43                             25.38
+Clients récents  3058        116                   1.00                                    1721069.89                              1.40
+Clients dormants 4249        266                   1.00                                    301956.89                               0.25
+Clients fidèles  2783        53                    1.67                                    285831.42                               0.23
+
+(5 lignes affectées)
+
+
+Heure de fin : 2026-10-04T23:51:27.0071102+02:00

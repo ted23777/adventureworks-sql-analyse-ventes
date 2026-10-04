@@ -1,0 +1,25 @@
+﻿table_source           nb_lignes
+---------------------- -----------
+Sales.SalesOrderHeader 31465
+Sales.SalesOrderDetail 121317
+Production.Product     504
+Sales.Customer         19820
+Sales.SalesTerritory   10
+
+(5 lignes affectées)
+
+premiere_commande       derniere_commande       nb_clients  nb_commandes
+----------------------- ----------------------- ----------- ------------
+2011-05-31 00:00:00.000 2014-06-30 00:00:00.000 19119       31465
+
+(1 ligne affectée)
+
+canal          nb_commandes sans_commercial ca_total
+-------------- ------------ --------------- ---------------------------------------
+Revendeur      3806         0               90775446.99
+Vente en ligne 27659        27659           32441339.12
+
+(2 lignes affectées)
+
+
+Heure de fin : 2026-10-04T23:47:35.2906934+02:00
