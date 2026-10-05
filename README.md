@@ -2,7 +2,7 @@
 
 Sur quoi repose réellement le chiffre d'affaires d'un distributeur de cycles : sur le volume de clients, sur une poignée de produits, ou sur un noyau restreint d'acheteurs ? Analyse T-SQL de 31 465 commandes sur trois ans.
 
-![alt text](image.png)
+![alt text](<visuels/visu_results_sql_adventureworks_analyse.gif>)
 
 # Le contexte
 
